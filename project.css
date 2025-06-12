@@ -1,0 +1,9 @@
+body{
+    background:linear-gradient(0.25turn,#b0b9c4,#3b6a96);
+}
+
+li{
+    border: solid;
+    border-color: #3f3f3f;
+    border-width: 1px;
+}

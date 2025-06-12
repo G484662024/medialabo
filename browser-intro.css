@@ -1,0 +1,39 @@
+p {
+	color: navy;
+}
+
+p.info {
+	font-size: small;
+	background-color: #dfdfdf;
+}
+
+h1 {
+	color: white;
+	text-shadow:1px 1px 10px navy;
+	background-color:none;
+}
+
+h2 {
+	
+	padding: 5px;
+	font-family: cursive;
+	color: #3f3faf;
+	background: linear-gradient(0.25turn,white,#ffefaf);
+}
+
+div#zentai {
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 200px 200px; 
+	grid-gap: 10px;
+	display: grid;
+	flex-direction: row;
+	width: 1024px;
+}
+
+div#zentai > div {
+	margin-left: 5px;
+	background-color: #ffefaf;
+}
+img.firefox_icon{
+	float: right;
+}

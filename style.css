@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(0.35turn,white,rgba(132, 0, 255, 0.773));
+}
+div#div1{
+    border:solid;
+    background-color:white;
+    border-width: 3px;
+    border-bottom-style: none;
+    border-color: #3f3f3f;
+    padding: 5px 5px 5px 15px;
+
+}
+h1{
+    color: rgb(255, 102, 0);
+}
+h2{
+    color: rgb(170, 0, 255);
+}
+
+div#div2{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-bottom-style: none;
+    border-width: 3px;
+    padding: 5px 5px 5px 15px;
+}
+div#div3{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-bottom-style: none;
+    border-width: 3px;
+    padding: 5px 5px 5px 15px;
+}
+div#div4{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-width: 3px;
+    padding: 5px 5px 5px 15px;
+}
