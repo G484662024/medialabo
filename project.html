@@ -5,16 +5,30 @@
         <title>世界の天気</title>
         <link rel="stylesheet" href="project.css">
         <script src="weather.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
       </head>
       <dody>
         <h1>世界の天気</h1>
         <h2>天気の検索結果</h2>  
-        
+        <select id="CitySelect">
+          <option value="">都市を選択してください</option>
+          <option value="360630">カイロ</option>
+          <option value="524901">モスクワ</option>
+      <option value="1816670">北京市</option>
+      <option value="993800">Johannesburg ヨハネスブルク （南アフリカ）</option>
+      <option value="1880252">Singapore シンガポール</option>
+      <option value="2147714">Sydney シドニー （オーストラリア）</option>
+      <option value="2643743"> London ロンドン （イギリス）</option>
+      <option value="2968815">Paris パリ （フランス）</option>
+      <option value="3451189"> Rio de Janeiro リオデジャネイロ （ブラジル）</option>
+      <option value="5128581">New York ニューヨーク （アメリカ合衆国）</option>
+      <option value="5368361">Los Angeles ロサンゼルス （アメリカ合衆国）</option>
+    </select>
     
 
         <button id="print">表示</button>
-        <img src="images.jpg">
-
+        
+      <img src="images.jpeg"  width="500"; height="500"/>
         <div id ="result"></div>
 
 

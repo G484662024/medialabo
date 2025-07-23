@@ -1,9 +1,17 @@
 body{
-    background:linear-gradient(0.25turn,#b0b9c4,#3b6a96);
+    background:linear-gradient(0.25turn,#fafbfc,#198cf7);
+    
 }
 
-li{
+ul{
     border: solid;
     border-color: #3f3f3f;
     border-width: 1px;
+     text-align: center;
+
+     font-size: 2.0rem;
+  color: rgb(0, 42, 255);
+  font-family: Helvetica, Arial, sans-serif;
+     
 }
+
